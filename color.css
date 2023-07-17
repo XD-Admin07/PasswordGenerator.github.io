@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.container{
+    background-image:url("image/bg.png");
+    background-color: rgb(0, 0, 0);
+    width: 100%;;
+    height: 100vh;;
+    position: absolute;
+    display: block;
+}
+
+.sub-container{
+    margin: 55px auto;
+    
+   
+    
+    
+    width: 650px;
+    height:600px;
+   
+    background: rgba(15, 18, 47, 0.79);
+    border: 2px solid #FFFFFF;
+    border-radius: 29px;
+}
+
+.head h1{
+    font-size: 26px;
+    color: #EDECEA;
+    text-align: center;
+}
+.head{
+    
+    align-items: center;
+    margin:20px auto;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    
+}
+.place{
+    
+    align-items: center;
+    margin:20px auto;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    
+}
+
+
+#val{
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+
+.but{
+    margin:20px auto;
+    position: relative;
+    
+    width: 30%;
+    
+}
+
+#butt{
+    text-align: center;
+    margin: auto;
+    width: 194px;
+    height: 40px;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #3A48C7 7.59%, rgba(76, 156, 231, 0.761577) 85.67%);
+    border: none;
+    color:rgb(235, 235, 235);
+    cursor: pointer;
+}
+.slider{
+    margin: auto;
+    color: #EDECEA;
+    width: 60%;
+    
+    
+}
+#strength{
+    margin: auto;
+    text-align: center;
+    width: 390px;
+    cursor: pointer;
+    
+}
+.indicator{
+    margin:-4px auto;
+    
+    background-color: #EBC400;
+    width: 397px;
+    height: 8px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.show{
+    color: white;
+    margin: auto;
+    width: 385px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.options{
+    width: 400px;
+    height:250px;
+    
+    margin:20px auto;
+    
+}
+.option{
+    margin:20px auto;
+    width: 90%;
+    height:40px;
+    background-color:antiquewhite;
+    align-items: center;
+   text-align: center;
+    border-radius: 20px;
+    
+}
+.option p{
+    padding-top:10px;
+}
+#opt{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#copy
+{
+    margin-left: -38px;
+}
+
+

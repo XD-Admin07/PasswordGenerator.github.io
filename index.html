@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="image/lock.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="color.css">
+    <script src="logic.js" defer></script>
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="sub-container">
+            <div class="head">
+                <img src="image/lock.png" width="49px" height="58px">
+                <h1>PASSWORD GENERATOR</h1>
+            </div>
+            <div class="place">
+                <input type="text" placeholder="Password" id="val"><!--<img src="image/file.png" id="copy" width="20px">-->
+                
+                <div class="indicator"></div>
+            </div>
+            <div class="show">
+                <p class="str" style="color: #EBC400;">Medium </p>
+                <p class="num">15</p>
+            </div>
+            <div class="slider">
+                
+                <input type="range" min="4" max="30" value="15" step="1" id="strength">
+            </div>
+            <div class="options">
+                  <div class="option">
+                    <p><input type="checkbox" id="lowercase"  style="opacity: 55%;" checked>  Include lowercase (a-z) </p>
+                  </div>
+                  <div class="option">
+                    
+                    <p><input type="checkbox" id="uppercase" >   Include uppercase (A-Z) </p>
+                  </div>
+               <div class="option">
+                <p><input type="checkbox" id="numbers" > Include numbers (0-9) </p>
+               </div>
+               <div class="option">
+                <p><input type="checkbox" id="symbol">    Include symbol (@-%) </p>
+               </div>
+            </div>
+            <div class="but">
+                <button type="submit" id="butt">Generate Password</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
